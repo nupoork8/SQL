@@ -1,8 +1,0 @@
--- DDL / DML 
-
---ADDING A NEW COLUMN
-
-ALTER TABLE Sales
-ADD ProfitMargin DECIMAL(5,2);
-
-
