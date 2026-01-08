@@ -1,0 +1,18 @@
+-- RULE #3
+-- DATA TYPES OF COLUMNS IN EACH QUEY MUST BE COMPATIBLE
+
+-- 1ST SELECT STATMENT 
+SELECT 
+CustomerID,
+ LastName
+FROM Sales.Customers
+
+-- SET OPERATOR 
+UNION
+
+-- 2ND SELCT SATAMENT 
+
+SELECT 
+ EmployeeID,
+ LastName
+FROM Sales.Employees
